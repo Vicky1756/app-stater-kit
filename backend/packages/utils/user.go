@@ -1,8 +1,8 @@
 package utils
 
 import (
-	"app-stater-kit/backend/packages/db"
-	"app-stater-kit/backend/packages/models"
+	"app-starter-kit/backend/packages/db"
+	"app-starter-kit/backend/packages/models"
 	"database/sql"
 	"regexp"
 )

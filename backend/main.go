@@ -1,6 +1,6 @@
 package main
 
-import "app-stater-kit/backend/packages/routes"
+import "app-starter-kit/backend/packages/routes"
 
 func main() {
 	routes.StartServer()

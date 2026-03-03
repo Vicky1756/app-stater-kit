@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"app-stater-kit/backend/packages/db"
+	"app-starter-kit/backend/packages/db"
 	"context"
 	"fmt"
 	"net/http"

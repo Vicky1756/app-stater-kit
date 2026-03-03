@@ -1,9 +1,9 @@
 package controller
 
 import (
-	"app-stater-kit/backend/packages/db"
-	"app-stater-kit/backend/packages/models"
-	"app-stater-kit/backend/packages/utils"
+	"app-starter-kit/backend/packages/db"
+	"app-starter-kit/backend/packages/models"
+	"app-starter-kit/backend/packages/utils"
 	"database/sql"
 	"fmt"
 	"net/http"

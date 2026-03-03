@@ -1,4 +1,4 @@
-module app-stater-kit/backend
+module app-starter-kit/backend
 
 go 1.25.7
 

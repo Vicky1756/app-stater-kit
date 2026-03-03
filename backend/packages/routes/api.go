@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"app-stater-kit/backend/packages/controller"
+	"app-starter-kit/backend/packages/controller"
 	"database/sql"
 
 	"github.com/labstack/echo/v4"
