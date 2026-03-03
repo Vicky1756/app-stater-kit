@@ -1,15 +1,16 @@
-.PHONY: build-go run-go run-react run
+.PHONY: build run-go run-react run
 
-# backend/Makefile
+# 1. Build the Go binary
 build:
-	go build -o main .
+	cd backend && go build -o main .
 
-run:
-	go run main.go
-# 3. Install dependencies and run React frontend
-# (Using 'npm start' for Create React App or 'npm run dev' for Vite)
+# 2. Run the Go backend
+run-go:
+	cd backend && go run main.go
+
+# 3. Run the React frontend (Vite)
 run-react:
-	cd frontend && npm install && npm start
+	cd frontend && npm install && npm run dev
 
 # 4. Run both together in parallel
 run: 
